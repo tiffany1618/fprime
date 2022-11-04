@@ -51,8 +51,14 @@ var hierarchy =
     [ "CommandDispatcherComponentBase", null, [
       [ "Svc::CommandDispatcherImpl", "class_svc_1_1_command_dispatcher_impl.html", null ]
     ] ],
+    [ "ComQueueComponentBase", null, [
+      [ "Svc::ComQueue", "class_svc_1_1_com_queue.html", null ]
+    ] ],
     [ "ComSplitterComponentBase", null, [
       [ "Svc::ComSplitter", "class_svc_1_1_com_splitter.html", null ]
+    ] ],
+    [ "ComStubComponentBase", null, [
+      [ "Svc::ComStub", "class_svc_1_1_com_stub.html", null ]
     ] ],
     [ "Svc::AMPCSSequence::SequenceHeader::Constants", "struct_svc_1_1_a_m_p_c_s_sequence_1_1_sequence_header_1_1_constants.html", null ],
     [ "Fw::ConstByteArray", "struct_fw_1_1_const_byte_array.html", null ],
@@ -88,13 +94,13 @@ var hierarchy =
       [ "Svc::FileUplink", "class_svc_1_1_file_uplink.html", null ]
     ] ],
     [ "FramerComponentBase", null, [
-      [ "Svc::FramerComponentImpl", "class_svc_1_1_framer_component_impl.html", null ]
+      [ "Svc::Framer", "class_svc_1_1_framer.html", null ]
     ] ],
     [ "Svc::FramingProtocol", "class_svc_1_1_framing_protocol.html", [
       [ "Svc::FprimeFraming", "class_svc_1_1_fprime_framing.html", null ]
     ] ],
     [ "Svc::FramingProtocolInterface", "class_svc_1_1_framing_protocol_interface.html", [
-      [ "Svc::FramerComponentImpl", "class_svc_1_1_framer_component_impl.html", null ]
+      [ "Svc::Framer", "class_svc_1_1_framer.html", null ]
     ] ],
     [ "GenericHubComponentBase", null, [
       [ "Svc::GenericHubComponentImpl", "class_svc_1_1_generic_hub_component_impl.html", null ]
@@ -122,16 +128,16 @@ var hierarchy =
       [ "Drv::LinuxGpioDriverComponentImpl", "class_drv_1_1_linux_gpio_driver_component_impl.html", null ]
     ] ],
     [ "LinuxI2cDriverComponentBase", null, [
-      [ "Drv::LinuxI2cDriverComponentImpl", "class_drv_1_1_linux_i2c_driver_component_impl.html", null ]
-    ] ],
-    [ "LinuxSerialDriverComponentBase", null, [
-      [ "Drv::LinuxSerialDriverComponentImpl", "class_drv_1_1_linux_serial_driver_component_impl.html", null ]
+      [ "Drv::LinuxI2cDriver", "class_drv_1_1_linux_i2c_driver.html", null ]
     ] ],
     [ "LinuxSpiDriverComponentBase", null, [
       [ "Drv::LinuxSpiDriverComponentImpl", "class_drv_1_1_linux_spi_driver_component_impl.html", null ]
     ] ],
     [ "LinuxTimerComponentBase", null, [
       [ "Svc::LinuxTimerComponentImpl", "class_svc_1_1_linux_timer_component_impl.html", null ]
+    ] ],
+    [ "LinuxUartDriverComponentBase", null, [
+      [ "Drv::LinuxUartDriver", "class_drv_1_1_linux_uart_driver.html", null ]
     ] ],
     [ "Utils::LockGuard", "class_utils_1_1_lock_guard.html", null ],
     [ "Os::LocklessQueue", "class_os_1_1_lockless_queue.html", null ],
@@ -165,6 +171,11 @@ var hierarchy =
     ] ],
     [ "Fw::FilePacket::PathName", "class_fw_1_1_file_packet_1_1_path_name.html", null ],
     [ "Svc::HealthImpl::PingEntry", "struct_svc_1_1_health_impl_1_1_ping_entry.html", null ],
+    [ "PlatformLimits", null, [
+      [ "BasicLimits", "struct_basic_limits.html", [
+        [ "FpLimits", "struct_fp_limits.html", null ]
+      ] ]
+    ] ],
     [ "PolyDbComponentBase", null, [
       [ "Svc::PolyDbImpl", "class_svc_1_1_poly_db_impl.html", null ]
     ] ],
@@ -172,9 +183,12 @@ var hierarchy =
     [ "PrmDbComponentBase", null, [
       [ "Svc::PrmDbImpl", "class_svc_1_1_prm_db_impl.html", null ]
     ] ],
+    [ "Types::Queue", "class_types_1_1_queue.html", null ],
     [ "Os::Queue", "class_os_1_1_queue.html", [
       [ "Os::IPCQueue", "class_os_1_1_i_p_c_queue.html", null ]
     ] ],
+    [ "Svc::ComQueue::QueueConfigurationEntry", "struct_svc_1_1_com_queue_1_1_queue_configuration_entry.html", null ],
+    [ "Svc::ComQueue::QueueConfigurationTable", "struct_svc_1_1_com_queue_1_1_queue_configuration_table.html", null ],
     [ "Os::QueueHandle", "class_os_1_1_queue_handle.html", null ],
     [ "Os::QueueRegistry", "class_os_1_1_queue_registry.html", null ],
     [ "RateGroupDriverComponentBase", null, [
@@ -266,9 +280,6 @@ var hierarchy =
     [ "Svc::TlmPacketizerPacketList", "struct_svc_1_1_tlm_packetizer_packet_list.html", null ],
     [ "Utils::TokenBucket", "class_utils_1_1_token_bucket.html", null ],
     [ "Fw::TrapHandler", "class_fw_1_1_trap_handler.html", null ],
-    [ "UartFramerComponentBase", null, [
-      [ "Drv::UartFramer", "class_drv_1_1_uart_framer.html", null ]
-    ] ],
     [ "UdpReceiverComponentBase", null, [
       [ "Svc::UdpReceiverComponentImpl", "class_svc_1_1_udp_receiver_component_impl.html", null ]
     ] ],

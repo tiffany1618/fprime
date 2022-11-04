@@ -1,7 +1,7 @@
 var searchData=
 [
   ['absolute_2',['ABSOLUTE',['../class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_record.html#a00b48744e3b4f81d88d9578f6e767cbfab0fbf7669d32ae622dc59e143b731022',1,'Svc::CmdSequencerComponentImpl::Sequence::Record::ABSOLUTE()'],['../struct_svc_1_1_a_m_p_c_s_sequence_1_1_record_1_1_time_flag.html#a40c964186445846486142e653ecc359fab908c8ae0d8e752a3e3e8e2b886e08a4',1,'Svc::AMPCSSequence::Record::TimeFlag::ABSOLUTE()']]],
-  ['active_5fcomponent_5fexit_3',['ACTIVE_COMPONENT_EXIT',['../class_fw_1_1_active_component_base.html#a6e84b99ef54743ee3956be0796ad4b37a8cc33621180816a11dbda2e55c379266',1,'Fw::ActiveComponentBase']]],
+  ['active_5fcomponent_5fexit_3',['ACTIVE_COMPONENT_EXIT',['../class_fw_1_1_active_component_base.html#a276047434e7439082da6d619e88cba4ba8cc33621180816a11dbda2e55c379266',1,'Fw::ActiveComponentBase']]],
   ['active_5frate_5fgroup_5foverrun_5fthrottle_4',['ACTIVE_RATE_GROUP_OVERRUN_THROTTLE',['../namespace_svc.html#ae495e4aee1da4d0b3e4e6c9801eeccc7a000574367151fcc68ffc13a24d417c07',1,'Svc']]],
   ['activecomponentbase_5',['ActiveComponentBase',['../class_fw_1_1_active_component_base.html',1,'Fw::ActiveComponentBase'],['../class_fw_1_1_active_component_base.html#a68d5f148bd4f708e331946fa68164203',1,'Fw::ActiveComponentBase::ActiveComponentBase()']]],
   ['activecomponentbase_2ecpp_6',['ActiveComponentBase.cpp',['../active_component_base_8cpp.html',1,'']]],
@@ -25,7 +25,7 @@ var searchData=
   ['addfileextension_24',['addFileExtension',['../class_utils_1_1_hash.html#a74da2d07352420d7032a33dc4c1c1d6e',1,'Utils::Hash']]],
   ['addresstoip4_25',['addressToIp4',['../class_drv_1_1_ip_socket.html#ab660a3c4894811cf0a26cd1668f5c22e',1,'Drv::IpSocket']]],
   ['addtask_26',['addTask',['../class_os_1_1_task_runner.html#ad60a47b2efea520cc896712c1ade8276',1,'Os::TaskRunner::addTask()'],['../class_os_1_1_task_registry.html#a893ae3a10ab658f37e58de24428c4e19',1,'Os::TaskRegistry::addTask()']]],
-  ['allocate_27',['allocate',['../class_drv_1_1_uart_framer.html#a251f8c0806893b5b6e74227b43deb75b',1,'Drv::UartFramer::allocate()'],['../class_fw_1_1_malloc_allocator.html#a2f6189dc3880f9de670da7df0572c4e0',1,'Fw::MallocAllocator::allocate()'],['../class_fw_1_1_mem_allocator.html#aa03b3a36290c0f438bc3ed4574dc2a5e',1,'Fw::MemAllocator::allocate()'],['../class_fw_1_1_mmap_allocator.html#abd5e1ca528edd25393944988a5809c47',1,'Fw::MmapAllocator::allocate()'],['../class_svc_1_1_framer_component_impl.html#a1a11747053642ea82534e1919ba27481',1,'Svc::FramerComponentImpl::allocate()'],['../class_svc_1_1_deframing_protocol_interface.html#a0120a0180e9eb67367b83d88fc5d6bfa',1,'Svc::DeframingProtocolInterface::allocate()'],['../class_svc_1_1_framing_protocol_interface.html#af0b618002ffc335b35e9e8be2de885bf',1,'Svc::FramingProtocolInterface::allocate()']]],
+  ['allocate_27',['allocate',['../class_fw_1_1_malloc_allocator.html#a2f6189dc3880f9de670da7df0572c4e0',1,'Fw::MallocAllocator::allocate()'],['../class_fw_1_1_mem_allocator.html#aa03b3a36290c0f438bc3ed4574dc2a5e',1,'Fw::MemAllocator::allocate()'],['../class_fw_1_1_mmap_allocator.html#abd5e1ca528edd25393944988a5809c47',1,'Fw::MmapAllocator::allocate()'],['../class_svc_1_1_deframing_protocol_interface.html#a0120a0180e9eb67367b83d88fc5d6bfa',1,'Svc::DeframingProtocolInterface::allocate()'],['../class_svc_1_1_framing_protocol_interface.html#af0b618002ffc335b35e9e8be2de885bf',1,'Svc::FramingProtocolInterface::allocate()']]],
   ['allocatebuffer_28',['allocateBuffer',['../class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence.html#a10d4e81b075e6348da9ef63598e241b5',1,'Svc::CmdSequencerComponentImpl::Sequence::allocateBuffer()'],['../class_svc_1_1_cmd_sequencer_component_impl.html#ac889ec4176cbb89c0cad867292544147',1,'Svc::CmdSequencerComponentImpl::allocateBuffer()']]],
   ['allocatequeue_29',['allocateQueue',['../class_svc_1_1_buffer_accumulator.html#a16be0726f4574705ce2290e6a1ff4b74',1,'Svc::BufferAccumulator']]],
   ['already_5fexists_30',['ALREADY_EXISTS',['../namespace_os_1_1_file_system.html#a8bcd5b75e145d2e7f77d68eec9b5ca9fa34aa540f4f7075710d71cc618250bb4c',1,'Os::FileSystem']]],
@@ -52,11 +52,10 @@ var searchData=
   ['assert_5flast_5fevent_51',['ASSERT_LAST_EVENT',['../test_utils_8hpp.html#a8bd873cfdf7de3543a0a60216eafb58a',1,'TestUtils.hpp']]],
   ['assert_5flast_5fport_5fout_52',['ASSERT_LAST_PORT_OUT',['../test_utils_8hpp.html#acdbc7aa305a0a284f1cb3597bb4cee4a',1,'TestUtils.hpp']]],
   ['assert_5flast_5ftlm_53',['ASSERT_LAST_TLM',['../test_utils_8hpp.html#a51c1f12c70ee864ca74eab2b91f23c06',1,'TestUtils.hpp']]],
-  ['assertarg_54',['AssertArg',['../fp_config_8hpp.html#ae9c9c3eb972e6bf5a0f95a3f79ca9fdb',1,'FpConfig.hpp']]],
-  ['assertfataladapter_55',['AssertFatalAdapter',['../namespace_svc.html#a01c34f93d7c9cce33307ab43c5150d08',1,'Svc']]],
-  ['assertfataladapter_2ehpp_56',['AssertFatalAdapter.hpp',['../assert_fatal_adapter_8hpp.html',1,'']]],
-  ['assertfataladaptercomponentimpl_57',['AssertFatalAdapterComponentImpl',['../class_svc_1_1_assert_fatal_adapter_component_impl.html',1,'Svc::AssertFatalAdapterComponentImpl'],['../class_svc_1_1_assert_fatal_adapter_component_impl.html#aed28e9ba258b47bc1b050e532009289d',1,'Svc::AssertFatalAdapterComponentImpl::AssertFatalAdapterComponentImpl()']]],
-  ['assertfataladaptercomponentimpl_2ecpp_58',['AssertFatalAdapterComponentImpl.cpp',['../assert_fatal_adapter_component_impl_8cpp.html',1,'']]],
-  ['assertfataladaptercomponentimpl_2ehpp_59',['AssertFatalAdapterComponentImpl.hpp',['../assert_fatal_adapter_component_impl_8hpp.html',1,'']]],
-  ['asstartpacket_60',['asStartPacket',['../union_fw_1_1_file_packet.html#a7bed61b0aa984aad64b3b1936fa39909',1,'Fw::FilePacket']]]
+  ['assertfataladapter_54',['AssertFatalAdapter',['../namespace_svc.html#a01c34f93d7c9cce33307ab43c5150d08',1,'Svc']]],
+  ['assertfataladapter_2ehpp_55',['AssertFatalAdapter.hpp',['../assert_fatal_adapter_8hpp.html',1,'']]],
+  ['assertfataladaptercomponentimpl_56',['AssertFatalAdapterComponentImpl',['../class_svc_1_1_assert_fatal_adapter_component_impl.html',1,'Svc::AssertFatalAdapterComponentImpl'],['../class_svc_1_1_assert_fatal_adapter_component_impl.html#aed28e9ba258b47bc1b050e532009289d',1,'Svc::AssertFatalAdapterComponentImpl::AssertFatalAdapterComponentImpl()']]],
+  ['assertfataladaptercomponentimpl_2ecpp_57',['AssertFatalAdapterComponentImpl.cpp',['../assert_fatal_adapter_component_impl_8cpp.html',1,'']]],
+  ['assertfataladaptercomponentimpl_2ehpp_58',['AssertFatalAdapterComponentImpl.hpp',['../assert_fatal_adapter_component_impl_8hpp.html',1,'']]],
+  ['asstartpacket_59',['asStartPacket',['../union_fw_1_1_file_packet.html#a7bed61b0aa984aad64b3b1936fa39909',1,'Fw::FilePacket']]]
 ];
