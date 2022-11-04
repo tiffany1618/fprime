@@ -1,10 +1,9 @@
 #ifndef FW_POLY_TYPE_HPP
 #define FW_POLY_TYPE_HPP
 
-#include <Fw/Types/BasicTypes.hpp>
+#include <FpConfig.hpp>
 #include <Fw/Types/StringType.hpp>
 #include <Fw/Types/Serializable.hpp>
-#include <FpConfig.hpp>
 #include <Fw/Cfg/SerIds.hpp>
 
 namespace Fw {
@@ -93,7 +92,7 @@ namespace Fw {
             PolyType(const PolyType &original); //!< copy constructor
             virtual ~PolyType(); //!< destructor
 
-#if FW_SERIALIZABLE_TO_STRING
+#if FW_SERIALIZABLE_TO_STRING || BUILD_UT
             void toString(StringBase& dest, bool append) const; //!< get string representation
             void toString(StringBase& dest) const; //!< get string representation
 #endif
