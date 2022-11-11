@@ -160,6 +160,7 @@ changeme
 CHANNELID
 chdir
 cheetahtemplate
+Chieu
 CHK
 CHNG
 chr
@@ -215,6 +216,7 @@ config
 configparser
 configs
 configurability
+constexpr
 cookiecutter
 cooldown
 coor
@@ -551,6 +553,7 @@ gethostname
 getinput
 getitem
 getline
+getm
 getopt
 getoutput
 getpid
@@ -660,6 +663,7 @@ initfiles
 inits
 initstate
 inkscape
+inlined
 inode
 INOUT
 INPCK
@@ -760,8 +764,8 @@ lineroo
 lineterm
 linting
 linux
-LINUXUARTDRIVER
 LINUXTIMEIMPL
+LINUXUARTDRIVER
 Listst
 LJR
 lkml
@@ -874,6 +878,7 @@ mycompany
 myfile
 myproject
 mytype
+namespaced
 nano
 nanosleep
 nargs
@@ -1123,6 +1128,8 @@ reder
 refactor
 refactoring
 refspec
+REFTOPOLOGY
+REFTOPOLOGYDEFS
 regexp
 regexs
 relaxng
@@ -1202,7 +1209,9 @@ SETFL
 setinheritsched
 setitem
 SETLOGGING
+setm
 setop
+setprecision
 setprotocol
 setquaternion
 setschedparam
@@ -1275,6 +1284,7 @@ ssh
 ssize
 SSL
 sss
+sstream
 Ssymbols
 stacklevel
 stackoverflow
@@ -1306,6 +1316,7 @@ stringchan
 stringified
 Stringpacket
 stringparam
+stringstream
 STRINGUTILS
 strlen
 strncat
@@ -1465,8 +1476,8 @@ tts
 ttype
 Tuszynski
 TXD
-typedef'ed
 typedef
+typedef'ed
 typeid
 typeinfo
 typelist
