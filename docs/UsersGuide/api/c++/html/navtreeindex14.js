@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"dir_7f3fb2ee489c6d64749bf8334065550d.html":[15,0,7,34],
 "dir_82da38d4301cfda4c326ac8f235a314c.html":[15,0,7,2,0],
 "dir_8442d6d3b00608b56eb9b656ee0beb00.html":[15,0,7,2],
 "dir_8803d91acb40de685e703cc1faf970c2.html":[15,0,7,30],
@@ -89,8 +90,8 @@ var NAVTREEINDEX14 =
 "functions_enum.html":[14,3,4],
 "functions_eval.html":[14,3,5],
 "functions_f.html":[14,3,0,5],
-"functions_func.html":[14,3,1,0],
 "functions_func.html":[14,3,1],
+"functions_func.html":[14,3,1,0],
 "functions_func_b.html":[14,3,1,1],
 "functions_func_c.html":[14,3,1,2],
 "functions_func_d.html":[14,3,1,3],
@@ -131,8 +132,8 @@ var NAVTREEINDEX14 =
 "functions_type.html":[14,3,3],
 "functions_u.html":[14,3,0,19],
 "functions_v.html":[14,3,0,20],
-"functions_vars.html":[14,3,2],
 "functions_vars.html":[14,3,2,0],
+"functions_vars.html":[14,3,2],
 "functions_vars_b.html":[14,3,2,1],
 "functions_vars_c.html":[14,3,2,2],
 "functions_vars_d.html":[14,3,2,3],
@@ -155,8 +156,8 @@ var NAVTREEINDEX14 =
 "functions_w.html":[14,3,0,21],
 "functions_z.html":[14,3,0,22],
 "functions_~.html":[14,3,0,23],
-"globals.html":[15,1,0],
 "globals.html":[15,1,0,0],
+"globals.html":[15,1,0],
 "globals_a.html":[15,1,0,1],
 "globals_b.html":[15,1,0,2],
 "globals_c.html":[15,1,0,3],
@@ -247,7 +248,6 @@ var NAVTREEINDEX14 =
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md20":[1,5],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md21":[1,5,0],
 "md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md22":[1,6],
-"md_docs__design_communications-adapter-interface.html":[2],
-"md_docs__design_communications-adapter-interface.html#autotoc_md24":[2,0],
-"md_docs__design_communications-adapter-interface.html#autotoc_md25":[2,0,0]
+"md_docs__design_communication-adapter-interface.html":[2],
+"md_docs__design_communication-adapter-interface.html#autotoc_md24":[2,0]
 };
