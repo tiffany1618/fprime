@@ -211,6 +211,7 @@ COMQUEUE
 COMQUEUEIN
 COMSPLITTER
 COMSTUB
+COMXBEE
 Concat
 config
 configparser
@@ -673,6 +674,7 @@ instantiator
 instring
 instrlen
 integertypename
+interoperate
 intlimits
 ints
 Inttype
@@ -1596,6 +1598,7 @@ wxgui
 Xabcdefx
 xapian
 xargs
+XBee
 xcode
 xdf
 xdffe
