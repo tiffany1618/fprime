@@ -46,6 +46,7 @@ aps
 apxs
 AQuat
 AQueued
+arcsecond
 arduino
 argc
 argcomplete
@@ -160,6 +161,7 @@ cgi
 changelog
 changeme
 CHANNELID
+CHANS
 chdir
 cheetahtemplate
 Chieu
@@ -198,6 +200,7 @@ cobj
 CODEFILE
 codegen
 codeql
+coldarm
 colno
 COLORSTYLE
 colorwheel
@@ -206,6 +209,7 @@ COMMANDDISPATCHERIMPL
 COMMANDDISPATCHERIMPLCFG
 commandline
 commasepitem
+COMBUFFER
 commonpath
 COMPACKET
 COMPONENTTESTERIMPL
@@ -234,6 +238,8 @@ Cpkt
 cplusplus
 CPOL
 cpos
+cppcheckxml
+cpplint
 cppcheck
 cppreference
 cprogramming
@@ -325,6 +331,7 @@ dicts
 dictvalue
 difflib
 diffs
+digitalcommons
 diles
 dinkel
 dirent
@@ -452,6 +459,7 @@ EXAMPLECOMPONENTIMPL
 excinfo
 executables
 exitcode
+Exoplanets
 expandtabs
 expr
 exprtokens
@@ -525,6 +533,7 @@ frox
 frsize
 fsanitize
 fsanitizers
+fsblkcnt
 fscanf
 fstream
 fstrength
@@ -541,7 +550,9 @@ gbl
 gcc
 gcda
 gcgandhi
+gcno
 gcov
+gcovr
 gdb
 gdiplus
 gencode
@@ -713,6 +724,7 @@ isnan
 isoschematron
 isr
 ISREG
+iss
 isspace
 isupper
 ITAR
@@ -771,6 +783,7 @@ libiconv
 LIBLOC
 lic
 lindent
+linelength
 lineno
 lineroo
 lineterm
@@ -901,6 +914,7 @@ nbits
 ncsl
 NDELAY
 ndiffs
+neascout
 Netscape
 newloc
 newroot
@@ -922,6 +936,7 @@ nonblock
 noncomma
 NONINFRINGEMENT
 Nop
+noparent
 noreply
 noreturn
 normalwidths
@@ -954,6 +969,7 @@ objs
 oclc
 odl
 odo
+ofiles
 oflag
 okidocki
 oldeol
@@ -1113,12 +1129,15 @@ QNX
 qsf
 qtest
 qthelpproject
+Qualcomm
 quatchan
+quoteattr
 RAbrack
 radd
 RAII
 Ramanan
 randtbl
+rapidscat
 raspberrypi
 raspi
 RATEGROUPDRIVER
@@ -1201,6 +1220,7 @@ sbin
 SBINDIR
 sbt
 scanf
+scatterometer
 sched
 schem
 schematron
@@ -1269,6 +1289,7 @@ SIZ
 sizeof
 sloc
 Smath
+smallsat
 SNDTIMEO
 snprintf
 sockaddr
@@ -1289,6 +1310,7 @@ SOURCEDIR
 sourceforge
 Sourcetrail
 sourcing
+spacetech
 sparc
 SPHINXBUILD
 SPHINXOPTS
@@ -1300,6 +1322,7 @@ srand
 srandom
 srange
 src
+srcs
 SRCS
 sre
 sscanf
@@ -1371,6 +1394,7 @@ synopsys
 SYSCONFDIR
 SYSFS
 sysinfo
+sysroot
 systemd
 tabbedwidths
 tabccitt
@@ -1569,6 +1593,7 @@ vfs
 vhd
 vhdl
 VID
+viewcontent
 viewforum
 virt
 virtualbox
