@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>F´ Flight Software - C/C++ Documentation: FpLimits Struct Reference</title>
+<title>F´ Flight Software - C/C++ Documentation: Fw/Types/CAssert.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,7 +65,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('struct_fp_limits.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('_c_assert_8h.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -85,47 +85,47 @@ $(document).ready(function(){initNavTree('struct_fp_limits.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="struct_fp_limits-members.html">List of all members</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
-<div class="title">FpLimits Struct Reference</div>  </div>
+<div class="title">CAssert.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="fp_config_8hpp_source.html">config/FpConfig.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for FpLimits:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="struct_fp_limits.png" usemap="#FpLimits_map" alt=""/>
-  <map id="FpLimits_map" name="FpLimits_map">
-<area href="struct_basic_limits.html" alt="BasicLimits" shape="rect" coords="0,56,89,80"/>
-  </map>
-</div></div>
+<div class="textblock"><code>#include &lt;<a class="el" href="fp_config_8h_source.html">FpConfig.h</a>&gt;</code><br />
+</div>
+<p><a href="c_assert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_struct_basic_limits"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_struct_basic_limits')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="struct_basic_limits.html">BasicLimits</a></td></tr>
-<tr class="memitem:adc0375fe1d46907e04534ab8d12d2693 inherit pub_static_attribs_struct_basic_limits"><td class="memItemLeft" align="right" valign="top">static const int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_basic_limits.html#adc0375fe1d46907e04534ab8d12d2693">I8_MIN</a> = INT8_MIN</td></tr>
-<tr class="separator:adc0375fe1d46907e04534ab8d12d2693 inherit pub_static_attribs_struct_basic_limits"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa0436930aaf61a8bc31ab2eaf08a143 inherit pub_static_attribs_struct_basic_limits"><td class="memItemLeft" align="right" valign="top">static const int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_basic_limits.html#aaa0436930aaf61a8bc31ab2eaf08a143">I8_MAX</a> = INT8_MAX</td></tr>
-<tr class="separator:aaa0436930aaf61a8bc31ab2eaf08a143 inherit pub_static_attribs_struct_basic_limits"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5743609b13433650382d571ef8b54cbe inherit pub_static_attribs_struct_basic_limits"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_basic_limits.html#a5743609b13433650382d571ef8b54cbe">U8_MIN</a> = 0</td></tr>
-<tr class="separator:a5743609b13433650382d571ef8b54cbe inherit pub_static_attribs_struct_basic_limits"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a828aee1751b7a69e2496ca9542b07696 inherit pub_static_attribs_struct_basic_limits"><td class="memItemLeft" align="right" valign="top">static const uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_basic_limits.html#a828aee1751b7a69e2496ca9542b07696">U8_MAX</a> = UINT8_MAX</td></tr>
-<tr class="separator:a828aee1751b7a69e2496ca9542b07696 inherit pub_static_attribs_struct_basic_limits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9a3bcc61a8546769033ab82bf35cba81"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c_assert_8h.html#a9a3bcc61a8546769033ab82bf35cba81">FW_CASSERT</a>(...)</td></tr>
+<tr class="separator:a9a3bcc61a8546769033ab82bf35cba81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="fp_config_8hpp_source.html#l00084">84</a> of file <a class="el" href="fp_config_8hpp_source.html">FpConfig.hpp</a>.</p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
-<li>config/<a class="el" href="fp_config_8hpp_source.html">FpConfig.hpp</a></li>
-</ul>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a9a3bcc61a8546769033ab82bf35cba81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3bcc61a8546769033ab82bf35cba81">&#9670;&nbsp;</a></span>FW_CASSERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FW_CASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="c_assert_8h_source.html#l00015">15</a> of file <a class="el" href="c_assert_8h_source.html">CAssert.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="struct_fp_limits.html">FpLimits</a></li>
+    <li class="navelem"><a class="el" href="dir_3bcf5ace2aff43f834a77bdf510f6078.html">Fw</a></li><li class="navelem"><a class="el" href="dir_1f5253cb5e73e32ad3f32f3f04254099.html">Types</a></li><li class="navelem"><a class="el" href="c_assert_8h.html">CAssert.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
