@@ -371,6 +371,7 @@ Doxywizard
 dpi
 DPRIVATE
 DPROTECTED
+DRAINBUFFERS
 drv
 drvipsocket
 drvsocketreadtask
@@ -448,6 +449,7 @@ ERRORCHECK
 errorlevel
 errornum
 ert
+ethanchee
 etime
 ETIMEDOUT
 eturn
@@ -728,7 +730,6 @@ ISREG
 iss
 isspace
 isupper
-ITAR
 itimerspec
 itle
 itr
@@ -928,6 +929,7 @@ ninjaaron
 NMEA
 nmsgs
 noargport
+NOBLOCK
 NOCOLOR
 NOCTTY
 nodemon
@@ -1022,6 +1024,8 @@ params
 PARENB
 PARODD
 parseable
+PASSIVERATEGROUP
+PASSIVERATEGROUPIMPLTESTER
 pathlib
 pathmaker
 pbuild
@@ -1612,7 +1616,7 @@ vwong
 vxworks
 VXWORKSLOGASSERT
 WAITALL
-Watney
+watney
 Wconversion
 Wdog
 weakref
@@ -1667,3 +1671,4 @@ XYZZY
 yacc
 yacgen
 yyyymmdd
+zmq
