@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a92fc3c99cfbdd01d827512a7b32c9d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a426f129fb964255fc2bbeec6d6f4958e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_fw.html#aa232625e63c0c60a1fced2933334fc32">Fw::SerializeStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fw_1_1_buffer.html#a426f129fb964255fc2bbeec6d6f4958e">deserialize</a> (<a class="el" href="class_fw_1_1_serialize_buffer_base.html">Fw::SerializeBufferBase</a> &amp;buffer)</td></tr>
 <tr class="separator:a426f129fb964255fc2bbeec6d6f4958e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3780e27338ae4fb92d0ec11f21646d51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fw_1_1_buffer.html#a3780e27338ae4fb92d0ec11f21646d51">isValid</a> () const</td></tr>
+<tr class="separator:a3780e27338ae4fb92d0ec11f21646d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f7344fefd6813ce700c7e39dfd2ce29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="basic_types_8h.html#aa63ef7b996d5487ce35a5a66601f3e73">U8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fw_1_1_buffer.html#a0f7344fefd6813ce700c7e39dfd2ce29">getData</a> () const</td></tr>
 <tr class="separator:a0f7344fefd6813ce700c7e39dfd2ce29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82190e37d06defba369d8c4bff9662de"><td class="memItemLeft" align="right" valign="top">U32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_fw_1_1_buffer.html#a82190e37d06defba369d8c4bff9662de">getSize</a> () const</td></tr>
@@ -268,7 +270,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00037">37</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00041">41</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -307,7 +309,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_fw_1_1_serializable.html#a8d365b0a0de15e9f41741a1830b49a1f">Fw::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00126">126</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00134">134</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -327,7 +329,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns creation context </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00068">68</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00076">76</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -347,7 +349,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Returns wrapped data pointer </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00060">60</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00068">68</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +370,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns a <a class="el" href="class_fw_1_1_serialize_buffer_base.html">SerializeBufferBase</a> representation of the wrapped data for serializing</p>
 <p>Returns a <a class="el" href="class_fw_1_1_serialize_buffer_base.html">SerializeBufferBase</a> representation of the wrapped data allowing for serializing other types of data to the wrapped buffer. Once obtained the user should call one of two functions: <code>sbb.resetSer();</code> to setup for serialization, or <code>sbb.setBuffLen(<a class="el" href="namespace_fpp_test_1_1_string.html#aad0e415a669aa066ffb482cdc3df4f9f">buffer.getSize()</a>);</code> to setup for deserializing. </p><dl class="section return"><dt>Returns</dt><dd>representation of the wrapped data to aid in serializing to it </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00099">99</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00107">107</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -387,6 +389,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns size of wrapped data </p>
+
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00072">72</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3780e27338ae4fb92d0ec11f21646d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3780e27338ae4fb92d0ec11f21646d51">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Fw::Buffer::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the buffer is valid (data pointer != nullptr and size &gt; 0) </p>
 
 <p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00064">64</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
@@ -409,7 +431,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Assignment operator to set given buffer's members from another without copying wrapped data </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00048">48</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00052">52</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +459,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>: true if equivalent, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00056">56</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00060">60</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -475,7 +497,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_fw_1_1_serializable.html#af5477c76e509ddfb7a60895d0437ffe5">Fw::Serializable</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00103">103</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00111">111</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -519,7 +541,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00090">90</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00098">98</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -540,7 +562,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets creation context </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00086">86</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00094">94</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -561,7 +583,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets pointer to wrapped data and the size of the given data </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00072">72</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00080">80</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>
@@ -582,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets pointer to wrapped data and the size of the given data </p>
 
-<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00079">79</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="buffer_8cpp_source.html#l00087">87</a> of file <a class="el" href="buffer_8cpp_source.html">Buffer.cpp</a>.</p>
 
 </div>
 </div>

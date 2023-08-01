@@ -11,14 +11,14 @@ var namespace_fpp_test =
       [ "getInvalidValue", "namespace_fpp_test_1_1_enum.html#ac2f7a6d4fc70d14b612f54879ac075cb", null ],
       [ "getValidValue", "namespace_fpp_test_1_1_enum.html#a33fcab18c13e29db96ed7e8c466d9a48", null ]
     ] ],
-    [ "Port", "namespace_fpp_test_1_1_port.html", "namespace_fpp_test_1_1_port" ],
     [ "String", "namespace_fpp_test_1_1_string.html", [
       [ "getSize", "namespace_fpp_test_1_1_string.html#aad0e415a669aa066ffb482cdc3df4f9f", null ]
     ] ],
+    [ "Types", "namespace_fpp_test_1_1_types.html", "namespace_fpp_test_1_1_types" ],
     [ "Utils", "namespace_fpp_test_1_1_utils.html", [
       [ "getChar", "namespace_fpp_test_1_1_utils.html#a60da9df7516525c2c444d496cee605aa", null ],
-      [ "getU32", "namespace_fpp_test_1_1_utils.html#a88ec66098f61714a6a47f3096177cde5", null ],
-      [ "getU8", "namespace_fpp_test_1_1_utils.html#a762ed224389cfcece37fce55cc2ac4aa", null ],
+      [ "getNonzeroU32", "namespace_fpp_test_1_1_utils.html#a3b974f92191c4494daeb1d9e8d11d3f6", null ],
+      [ "getNonzeroU8", "namespace_fpp_test_1_1_utils.html#ae32b999b021dca4415425ebfa08f1f2b", null ],
       [ "setString", "namespace_fpp_test_1_1_utils.html#a1bcea2cafcc5aa938c53f26a011d8825", null ]
     ] ],
     [ "setEnumStrArray", "namespace_fpp_test.html#a1df711345be901a8af0fe529f42e4433", null ],

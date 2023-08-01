@@ -796,7 +796,7 @@ $(document).ready(function(){initNavTree('_serializable_8cpp_source.html',''); i
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    }</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160; </div>
 <div class="line"><a name="l00709"></a><span class="lineno"><a class="line" href="class_fw_1_1_external_serialize_buffer.html#a4a40b9c8a2ccb948e50df3a6a082be0d">  709</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_fw_1_1_external_serialize_buffer.html#a4a40b9c8a2ccb948e50df3a6a082be0d">ExternalSerializeBuffer::setExtBuffer</a>(<a class="code" href="basic_types_8h.html#aa63ef7b996d5487ce35a5a66601f3e73">U8</a>* buffPtr, <a class="code" href="basic_types_8h.html#afd4ff7b0d16e9d3d3c4af8617e630ad1">NATIVE_UINT_TYPE</a> size) {</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        <a class="code" href="assert_8hpp.html#ae203ae2022a5f92eea0ceb85a0d62c3c">FW_ASSERT</a>(buffPtr);</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        <a class="code" href="assert_8hpp.html#ae203ae2022a5f92eea0ceb85a0d62c3c">FW_ASSERT</a>(buffPtr != <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        this-&gt;m_buff = buffPtr;</div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        this-&gt;m_buffSize = size;</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    }</div>

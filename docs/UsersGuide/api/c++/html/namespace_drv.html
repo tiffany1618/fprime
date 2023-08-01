@@ -178,6 +178,12 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a61d09174558e3591ec1e787fc84c27ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e6583aea010a65c34368a546ca7d91"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91">SpiMode</a> { <a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91af20101713a553f8385d6dcaf293b4cfd">SPI_MODE_CPOL_LOW_CPHA_LOW</a>
+, <a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91a9c890a636da0e08c744eff117e912c46">SPI_MODE_CPOL_LOW_CPHA_HIGH</a>
+, <a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91a382b9b8212cf1ad925a71929e89f1163">SPI_MODE_CPOL_HIGH_CPHA_LOW</a>
+, <a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91ad0cbf7423ddda42aee10d1c5e58433ac">SPI_MODE_CPOL_HIGH_CPHA_HIGH</a>
+ }</td></tr>
+<tr class="separator:a92e6583aea010a65c34368a546ca7d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -332,6 +338,35 @@ Functions</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="linux_spi_driver_component_impl_8hpp_source.html#l00027">27</a> of file <a class="el" href="linux_spi_driver_component_impl_8hpp_source.html">LinuxSpiDriverComponentImpl.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a92e6583aea010a65c34368a546ca7d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e6583aea010a65c34368a546ca7d91">&#9670;&nbsp;</a></span>SpiMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_drv.html#a92e6583aea010a65c34368a546ca7d91">Drv::SpiMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>SPI Mode Select</p>
+<p>Defines the SPI Clock Polarity and Phase for each SPI Transaction.</p>
+<p>SPI Clock Polarity(CPOL): Defines clock polarity as idle low (CPOL = 0) or idle high(CPOL = 1) SPI Clock Phase(CPHA): Defines if data is shifted out on the rising clock edge and sampled on the falling clock edge(CPHA = 0) or if data is shifted out on the falling clock edge and sampled on the rising clock edge(CPHA=1) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a92e6583aea010a65c34368a546ca7d91af20101713a553f8385d6dcaf293b4cfd"></a>SPI_MODE_CPOL_LOW_CPHA_LOW&#160;</td><td class="fielddoc"><p>(CPOL = 0, CPHA = 0) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a92e6583aea010a65c34368a546ca7d91a9c890a636da0e08c744eff117e912c46"></a>SPI_MODE_CPOL_LOW_CPHA_HIGH&#160;</td><td class="fielddoc"><p>(CPOL = 0, CPHA = 1) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a92e6583aea010a65c34368a546ca7d91a382b9b8212cf1ad925a71929e89f1163"></a>SPI_MODE_CPOL_HIGH_CPHA_LOW&#160;</td><td class="fielddoc"><p>(CPOL = 1, CPHA = 0) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a92e6583aea010a65c34368a546ca7d91ad0cbf7423ddda42aee10d1c5e58433ac"></a>SPI_MODE_CPOL_HIGH_CPHA_HIGH&#160;</td><td class="fielddoc"><p>(CPOL = 1, CPHA = 1) </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="linux_spi_driver_component_impl_8hpp_source.html#l00047">47</a> of file <a class="el" href="linux_spi_driver_component_impl_8hpp_source.html">LinuxSpiDriverComponentImpl.hpp</a>.</p>
 
 </div>
 </div>

@@ -8,6 +8,7 @@ var class_fw_1_1_buffer =
     [ "getData", "class_fw_1_1_buffer.html#a0f7344fefd6813ce700c7e39dfd2ce29", null ],
     [ "getSerializeRepr", "class_fw_1_1_buffer.html#af881c86bc7c3a7855009d0eb537f60d0", null ],
     [ "getSize", "class_fw_1_1_buffer.html#a82190e37d06defba369d8c4bff9662de", null ],
+    [ "isValid", "class_fw_1_1_buffer.html#a3780e27338ae4fb92d0ec11f21646d51", null ],
     [ "operator=", "class_fw_1_1_buffer.html#a930468c179a636be62d5e61e52e9ca2d", null ],
     [ "operator==", "class_fw_1_1_buffer.html#a01160e2d6feb0d7e254e632fa11eef1d", null ],
     [ "serialize", "class_fw_1_1_buffer.html#a92fc3c99cfbdd01d827512a7b32c9d46", null ],

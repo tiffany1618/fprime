@@ -161,9 +161,9 @@ $(document).ready(function(){initNavTree('array_2main_8cpp_source.html',''); ini
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    U32 b[3];</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">for</span> (U32 i = 0; i &lt; <a class="code" href="namespace_svc_1_1_fp_frame_header.html#a5b13896b3c6169bf2c6276c8b66cb8a3ac72459661813cbe92715dd0d186924cc">Struct::SIZE</a>; i++) {</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">for</span> (U32 j = 0; j &lt; 3; j++) {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            b[j] = <a class="code" href="namespace_fpp_test_1_1_utils.html#a88ec66098f61714a6a47f3096177cde5">FppTest::Utils::getU32</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            b[j] = <a class="code" href="namespace_fpp_test_1_1_utils.html#a3b974f92191c4494daeb1d9e8d11d3f6">FppTest::Utils::getNonzeroU32</a>();</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        a[i].set(<a class="code" href="namespace_fpp_test_1_1_utils.html#a88ec66098f61714a6a47f3096177cde5">FppTest::Utils::getU32</a>(), b);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        a[i].set(<a class="code" href="namespace_fpp_test_1_1_utils.html#a3b974f92191c4494daeb1d9e8d11d3f6">FppTest::Utils::getNonzeroU32</a>(), b);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('array_2main_8cpp_source.html',''); ini
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    Uint32 b;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span> (U32 i = 0; i &lt; <a class="code" href="namespace_svc_1_1_fp_frame_header.html#a5b13896b3c6169bf2c6276c8b66cb8a3ac72459661813cbe92715dd0d186924cc">Uint32Array::SIZE</a>; i++) {</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">for</span> (U32 j = 0; j &lt; <a class="code" href="namespace_svc_1_1_fp_frame_header.html#a5b13896b3c6169bf2c6276c8b66cb8a3ac72459661813cbe92715dd0d186924cc">Uint32::SIZE</a>; j++) {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            b[j] = <a class="code" href="namespace_fpp_test_1_1_utils.html#a88ec66098f61714a6a47f3096177cde5">FppTest::Utils::getU32</a>();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            b[j] = <a class="code" href="namespace_fpp_test_1_1_utils.html#a3b974f92191c4494daeb1d9e8d11d3f6">FppTest::Utils::getNonzeroU32</a>();</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        a[i] = b;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
@@ -245,8 +245,8 @@ $(document).ready(function(){initNavTree('array_2main_8cpp_source.html',''); ini
 <div class="ttc" id="aclass_array_test_html"><div class="ttname"><a href="class_array_test.html">ArrayTest</a></div><div class="ttdef"><b>Definition:</b> <a href="array_test_8hpp_source.html#l00054">ArrayTest.hpp:54</a></div></div>
 <div class="ttc" id="aclass_string_test_html"><div class="ttname"><a href="class_string_test.html">StringTest</a></div><div class="ttdef"><b>Definition:</b> <a href="string_test_8hpp_source.html#l00039">StringTest.hpp:39</a></div></div>
 <div class="ttc" id="anamespace_fpp_test_1_1_utils_html_a1bcea2cafcc5aa938c53f26a011d8825"><div class="ttname"><a href="namespace_fpp_test_1_1_utils.html#a1bcea2cafcc5aa938c53f26a011d8825">FppTest::Utils::setString</a></div><div class="ttdeci">void setString(char *buf, U32 size)</div><div class="ttdef"><b>Definition:</b> <a href="utils_8cpp_source.html#l00041">Utils.cpp:41</a></div></div>
-<div class="ttc" id="anamespace_fpp_test_1_1_utils_html_a88ec66098f61714a6a47f3096177cde5"><div class="ttname"><a href="namespace_fpp_test_1_1_utils.html#a88ec66098f61714a6a47f3096177cde5">FppTest::Utils::getU32</a></div><div class="ttdeci">U32 getU32()</div><div class="ttdef"><b>Definition:</b> <a href="utils_8cpp_source.html#l00030">Utils.cpp:30</a></div></div>
-<div class="ttc" id="anamespace_fpp_test_html"><div class="ttname"><a href="namespace_fpp_test.html">FppTest</a></div><div class="ttdef"><b>Definition:</b> <a href="enum_to_string_test_8cpp_source.html#l00025">EnumToStringTest.cpp:25</a></div></div>
+<div class="ttc" id="anamespace_fpp_test_1_1_utils_html_a3b974f92191c4494daeb1d9e8d11d3f6"><div class="ttname"><a href="namespace_fpp_test_1_1_utils.html#a3b974f92191c4494daeb1d9e8d11d3f6">FppTest::Utils::getNonzeroU32</a></div><div class="ttdeci">U32 getNonzeroU32()</div><div class="ttdef"><b>Definition:</b> <a href="utils_8cpp_source.html#l00030">Utils.cpp:30</a></div></div>
+<div class="ttc" id="anamespace_fpp_test_html"><div class="ttname"><a href="namespace_fpp_test.html">FppTest</a></div><div class="ttdef"><b>Definition:</b> <a href="formal_param_types_8cpp_source.html#l00018">FormalParamTypes.cpp:18</a></div></div>
 <div class="ttc" id="anamespace_svc_1_1_fp_frame_header_html_a5b13896b3c6169bf2c6276c8b66cb8a3ac72459661813cbe92715dd0d186924cc"><div class="ttname"><a href="namespace_svc_1_1_fp_frame_header.html#a5b13896b3c6169bf2c6276c8b66cb8a3ac72459661813cbe92715dd0d186924cc">Svc::FpFrameHeader::SIZE</a></div><div class="ttdeci">@ SIZE</div><div class="ttdoc">Header size for F Prime frame header.</div><div class="ttdef"><b>Definition:</b> <a href="fprime_protocol_8hpp_source.html#l00030">FprimeProtocol.hpp:29</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
